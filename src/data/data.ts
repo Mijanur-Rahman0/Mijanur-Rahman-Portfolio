@@ -11,7 +11,7 @@ export const portfolioData = {
 I enjoy solving problems, learning new technologies, and creating user-friendly applications.
 
 Outside coding, I like gaming, exploring tech, and improving my skills continuously.`,
-    experience: "1+",
+    experience: "0+",
     projects: "5+",
     techStack: "8+",
   },
@@ -86,11 +86,23 @@ export const projects: Project[] = portfolioData.projects;
 export const skills: Skill[] = [
   {
     category: "Frontend",
-    items: portfolioData.skills.frontend.map(s => ({ name: s, level: 90 }))
+    items: [
+      { name: "HTML", level: 90 },
+      { name: "CSS", level: 90 },
+      { name: "Tailwind", level: 90 },
+      { name: "JavaScript", level: 75 },
+      { name: "React", level: 60 },
+      { name: "Next.js", level: 45 },
+    ]
   },
   {
     category: "Tools",
-    items: portfolioData.skills.tools.map(s => ({ name: s, level: 85 }))
+    items: [
+      { name: "Git", level: 50 },
+      { name: "GitHub", level: 80 },
+      { name: "VS Code", level: 85 },
+      { name: "Figma", level: 70 },
+    ]
   }
 ];
 
