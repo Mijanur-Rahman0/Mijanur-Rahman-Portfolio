@@ -32,15 +32,15 @@ Outside coding, I like gaming, exploring tech, and improving my skills continuou
   projects: [
     {
       id: "1",
-      name: "Tour & Travel Management System",
-      shortDescription: "A complete travel booking system with admin and user panel.",
-      fullDescription: "A complete travel booking system with admin and user panel. Features include destination browsing, booking management, and a comprehensive admin dashboard for monitoring sales and users.",
-      image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800",
-      techStack: ["React", "Node.js", "MongoDB"],
-      liveDemo: "#",
-      github: "#",
-      challenges: "Implementing complex state management for the booking flow and ensuring real-time inventory updates.",
-      improvements: "Integration with third-party travel APIs for real-time flight and hotel data."
+      name: "TaskFlow – Smart Todo Management System",
+      shortDescription: "A Simple and Efficient Todo Management Web Application.",
+      fullDescription: "This is a frontend-based Todo Management Application built using HTML, CSS, Tailwind, and JavaScript. The app allows users to add, update, delete, and manage daily tasks efficiently. It uses browser LocalStorage to store tasks, ensuring that data remains saved even after page refresh. The user interface is clean, responsive, and optimized for a smooth user experience.",
+      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800",
+      techStack: ["HTML", "CSS", "Tailwind", "JavaScript"],
+      liveDemo: "https://mijanur-rahman0.github.io/Task-Manager-Web-App/",
+      github: "https://github.com/Mijanur-Rahman0/Task-Manager-Web-App",
+      challenges: "Managing task state and keeping UI synced with LocalStorage using vanilla JavaScript.",
+      improvements: "Add backend support, authentication, and advanced features like task priority, due dates, and drag-and-drop."
     },
     {
       id: "2",
