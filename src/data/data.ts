@@ -49,8 +49,8 @@ Outside coding, I like gaming, exploring tech, and improving my skills continuou
       fullDescription: "A high-performance personal portfolio website built with Next.js and Tailwind CSS. Featuring smooth animations with Framer Motion and a fully responsive design.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
       techStack: ["Next.js", "Tailwind", "Framer Motion"],
-      liveDemo: "#",
-      github: "https://github.com/Mijanur-Rahman0",
+      liveDemo: "https://mijanur-rahman-portfolio.vercel.app/",
+      github: "https://github.com/Mijanur-Rahman0/Mijanur-Rahman-Portfolio",
       challenges: "Optimizing the bundle size while maintaining high-quality animations and images.",
       improvements: "Adding a blog section using MDX and implementing dark mode toggle."
     },

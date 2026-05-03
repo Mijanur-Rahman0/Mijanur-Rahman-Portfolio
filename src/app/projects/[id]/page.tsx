@@ -52,12 +52,16 @@ export default function ProjectDetails() {
               </p>
 
               <div className="flex flex-wrap gap-4 mb-12">
-                <Button className="gap-2">
-                  Live Demo <ExternalLink size={18} />
-                </Button>
-                <Button variant="outline" className="gap-2">
-                  View Code <Github size={18} />
-                </Button>
+                <Link href={project.liveDemo} target="_blank" rel="noopener noreferrer">
+                  <Button className="gap-2">
+                    Live Demo <ExternalLink size={18} />
+                  </Button>
+                </Link>
+                <Link href={project.github} target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="gap-2">
+                    View Code <Github size={18} />
+                  </Button>
+                </Link>
               </div>
 
               <div className="space-y-10">

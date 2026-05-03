@@ -100,10 +100,10 @@ export const Projects = () => {
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                    <Link href={project.github} className="p-3 bg-white/10 hover:bg-white/20 rounded-full text-white backdrop-blur-md">
+                    <Link href={project.github} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 hover:bg-white/20 rounded-full text-white backdrop-blur-md">
                       <Github size={20} />
                     </Link>
-                    <Link href={project.liveDemo} className="p-3 bg-white/10 hover:bg-white/20 rounded-full text-white backdrop-blur-md">
+                    <Link href={project.liveDemo} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 hover:bg-white/20 rounded-full text-white backdrop-blur-md">
                       <ExternalLink size={20} />
                     </Link>
                   </div>
